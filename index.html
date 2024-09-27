@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookMyStay | Hotel Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="">
+    <link rel="icon" href="images/logo.jpg" />
+  </head>
+  <body>
+    <div class="container-1" id="slider-image">
+      <nav class="nav-items">
+        <h1 class="title">Book My Stay</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Places</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="signup.html">Sign in</a></li>
+        </ul>
+      </nav>
+
+      <div class="slog">
+        <h1 class="slogan-1">Your Perfect Stay, Just a Click Away</h1>
+        <br />
+        <h2 class="slogan-2">Discover Comfort, Book with Confidence</h2>
+      </div>
+      <div class="book">
+        <button type="submit"><a href="./mk/book&contact.html" id="book">Book Now</a></button>
+      </div>
+    </div>
+    <div class="rooms">
+      <div class="text">
+        <h1 class="place_head">TOP PLACES</h1>
+        <p class="sub_head">
+          Here are the top tourist destinations in Tamil Nadu.
+        </p>
+        <hr class="line" />
+      </div>
+      <div class="place">
+        <div class="map">
+          <section class="mapsection">
+            <iframe
+              id="map"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14131.036667732067!2d80.2707!3d13.0827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1637755481449!5m2!1sen!2snp&ll=13.052138,80.251608&maptype=satellite"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </section>
+          <div class="filter-section">
+            <h3>Filter by:</h3>
+
+            <div class="section">
+              <h4>Your previous filters</h4>
+              <hr />
+              <div class="filter">
+                <input type="checkbox" id="previous-hotels" />
+                <label for="previous-hotels">Hotels</label>
+                <span class="count">1201</span>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4>Popular filters for this area</h4>
+              <hr />
+              <div class="filter">
+                <input type="checkbox" id="4stars" />
+                <label for="4stars">4 stars</label>
+                <span class="count">7175</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="hotels" />
+                <label for="hotels">Hotels</label>
+                <span class="count">1201</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="private-bathroom" />
+                <label for="private-bathroom">Private bathroom</label>
+                <span class="count">8853</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="hostels" />
+                <label for="hostels">Hostels</label>
+                <span class="count">88</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="apartments" />
+                <label for="apartments">Apartments</label>
+                <span class="count">10354</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="oxford-street" />
+                <label for="oxford-street">Oxford Street</label>
+                <span class="count">377</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="free-wifi" />
+                <label for="free-wifi">Free Wifi</label>
+                <span class="count">12639</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="private-pool" />
+                <label for="private-pool">Private pool</label>
+                <span class="count">41</span>
+              </div>
+            </div>
+
+            <div class="section">
+              <h4>Property type</h4>
+              <hr />
+              <div class="filter">
+                <input type="checkbox" id="property-apartments" />
+                <label for="property-apartments">Apartments</label>
+                <span class="count">10354</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="property-hotels" />
+                <label for="property-hotels">Hotels</label>
+                <span class="count">1201</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="property-vacation-homes" />
+                <label for="property-vacation-homes">Vacation Homes</label>
+                <span class="count">848</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="property-homestays" />
+                <label for="property-homestays">Homestays</label>
+                <span class="count">657</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="property-guesthouses" />
+                <label for="property-guesthouses">Guesthouses</label>
+                <span class="count">500</span>
+              </div>
+              <a href="#" class="show-all">Show all 15</a>
+            </div>
+
+            <div class="section">
+              <h4>Facilities</h4>
+              <hr />
+              <div class="filter">
+                <input type="checkbox" id="facilities-parking" />
+                <label for="facilities-parking">Parking</label>
+                <span class="count">4362</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="facilities-free-wifi" />
+                <label for="facilities-free-wifi">Free Wifi</label>
+                <span class="count">12639</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="facilities-restaurant" />
+                <label for="facilities-restaurant">Restaurant</label>
+                <span class="count">635</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="facilities-pet-friendly" />
+                <label for="facilities-pet-friendly">Pet friendly</label>
+                <span class="count">1690</span>
+              </div>
+              <div class="filter">
+                <input type="checkbox" id="facilities-room-service" />
+                <label for="facilities-room-service">Room service</label>
+                <span class="count">472</span>
+              </div>
+              <a href="#" class="show-all">Show all 14</a>
+              <div class="apply">
+                <button type="submit" style="cursor: pointer">
+                  Apply Filter
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--places-->
+
+
+        <div class="places">
+          <div class="top_places">
+            <div class="chennai place_images">
+              <img src="images/chennai.jpg" alt="Chennai" />
+              <h3>Chennai</h3>
+            </div>
+            <div class="coimbatore place_images">
+              <img src="images/coimbatore.jpg" alt="Coimbatore" />
+              <h3>Coimbatore</h3>
+            </div>
+            <div class="ooty place_images">
+              <img src="images/ooty.jpg" alt="Ooty" />
+              <h3>Ooty</h3>
+            </div>
+            <div class="kodaikanal place_images">
+              <img src="images/kodaikanal.jpg" alt="Kodaikanal" />
+              <h3>Kodaikanal</h3>
+            </div>
+            <div class="madurai place_images">
+              <img src="images/madurai.jpg" alt="Madurai" />
+              <h3>Madurai</h3>
+            </div>
+            <div class="kanyakumari place_images">
+              <img src="images/kanyakumari.jpg" alt="Kanyakumari" />
+              <h3>Kanyakumari</h3>
+            </div>
+          </div>
+
+          <div class="g-w">
+            <img src="images/places/left.png" id="bb">
+            <div class="g">
+                <div>
+                    <span><img src="images/places/image-1.JPG"><p>Tiruvannamalai</p></span>
+                    <span><img src="images/places/image-4.JPG"><p>Vellore</p></span>
+                    <span><img src="images/places/image-2.JPG"><p>Theni</p></span>
+                </div>
+                <div> 
+                    <span><img src="images/places/image-3.jpg"><p>Mamallapuram</p></span>
+                    <span><img src="images/places/image-5.jpg"><p>Trichy</p></span>
+                    <span><img src="images/places/image-6.jpg"><p>Tirunelveli</p></span>
+                </div>
+            </div>
+            <img src="images/places/right.png" id="name">
+        </div>
+        <script>
+            let scrollContainer = document.querySelector(".g");
+            let bb = document.getElementById("bb");
+            let name = document.getElementById("name");
+    
+            scrollContainer.addEventListener("wheel", (evt) => {
+                evt.preventDefault();
+                scrollContainer.scrollLeft += evt.deltaY;
+            });
+    
+            name.addEventListener("click", () => {
+                scrollContainer.style.scrollBehavior = "smooth";
+                scrollContainer.scrollLeft += 900;
+            });
+    
+            bb.addEventListener("click", () => {
+                scrollContainer.style.scrollBehavior = "smooth";
+                scrollContainer.scrollLeft -= 900;
+            });
+        </script>
+    
+
+          <div class="popular-searches">
+            <h2>Popular Searches</h2>
+            <p>Our services are available throughout India.</p>
+            <div class="cards">
+              <span
+                ><p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#e8eaed"
+                  >
+                    <path
+                      d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"
+                    />
+                  </svg></p
+              ></span>
+              <div class="card">
+                <img src="images/mumbai.jpg" alt="Mumbai" />
+                <div class="card-content">
+                  <h3>Mumbai</h3>
+                  <p>5,523 Hotels</p>
+                  <p>Avg. ₹4,168</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/kerala.JPG" alt="Kerala" />
+                <div class="card-content">
+                  <h3>Kerala</h3>
+                  <p>4,862 Hotels</p>
+                  <p>Avg. ₹3,542</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/Bangalore.jpg" alt="Bengaluru" />
+                <div class="card-content">
+                  <h3>Bengaluru</h3>
+                  <p>7,854 Hotels</p>
+                  <p>Avg. ₹3,937</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="images/delhi.jpg" alt="Delhi" />
+                <div class="card-content">
+                  <h3>Delhi</h3>
+                  <p>12,375 Hotels</p>
+                  <p>Avg. ₹3,275</p>
+                </div>
+              </div>
+              <span
+                ><p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#e8eaed"
+                  >
+                    <path
+                      d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"
+                    />
+                  </svg></p
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  discount  -->
+    <div class="deals-text">
+      <h1>Top Deals</h1>
+      <p>We're offering a wide range of deals.</p>
+      <hr class="line" style="margin-left: 25%;"/>
+    </div>
+    <div class="deals">
+        <figure>
+          <img src="images/deals/deal-1.png" alt="Deal - 1" title="Click to Get the Deal">
+          <figcaption>8 PM, Summer</figcaption>
+        </figure>
+        <figure>
+          <img src="images/deals/deal-2.png" alt="Deal - 2" title="Click to Get the Deal">
+          <figcaption>3 PM, Winter</figcaption>
+        </figure>
+        <figure>
+          <img src="images/deals/deal-3.png" alt="Deal - 3" title="Click to Get the Deal">
+          <figcaption>10 AM, Summer Storm</figcaption>
+        </figure>
+        <figure>
+          <img src="images/deals/deal-4.png" alt="Deal - 4 " title="Click to Get the Deal">
+          <figcaption>5 PM, Autumn</figcaption>
+        </figure>
+        <figure>
+          <img src="images/deals/deal-5.png" alt="Deal - 5" title="Click to Get the Deal">
+          <figcaption>7 PM, Spring</figcaption>
+        </figure>
+    </div>
+
+
+
+    
+<!--customers-->
+
+<div class="customer-title">
+  <h1>Our Customer Feedbacks's</h1>
+</div>
+<div class="gallary-items-main">
+<div class="gallery-main">
+	<div id="gallery">
+		<figure>
+			<img src="images/customers/image-1.jpg" alt="image-1 - 1">
+			<figcaption>Mr. Kit Haringtone<br> Ensure the booking form is intuitive and <br>user-friendly for a seamless reservation experience.</figcaption>
+		</figure>
+		<figure>
+			<img src="images/customers/image-2.webp" alt="image - 2">
+			<figcaption>Mr. Peter Dinklage <br>Fast loading times ensure a smooth and enjoyable browsing experience.</figcaption>
+		</figure>
+		<figure>
+			<img src="images/customers/image-3.jpg" alt="image - 3">
+			<figcaption>Mr. Tony Stark <br>Stunning high-quality images capture the essence of each hotel  perfectly.</figcaption>
+		</figure>
+		<figure>
+			<img src="images/customers/image-4.jpg" alt="image - 4 ">
+			<figcaption>Mr.Nikolaj Coster<br>The intuitive search filters make finding the perfect hotel a breeze.</figcaption>
+		</figure>
+		<figure>
+			<img src="images/customers/image-5.jpg" alt="image - 5">
+			<figcaption>Mr. Chris Hemsworth<br>The mobile-friendly design ensures a seamless experience onany device.</figcaption>
+		</figure>
+	</div>
+  <script>
+    "use strict";
+    (function () {
+      window.onload = () => {
+        const obj = document.querySelector("#gallery");
+        const time = 10000;
+        function animStart() {
+          if (obj.classList.contains("active") == false) {
+            obj.classList.add("active");
+            setTimeout(() => {
+              animEnd();
+            }, time);
+          }
+        }
+        function animEnd() {
+          obj.classList.remove("active");
+          obj.offsetWidth;
+        }
+        document.addEventListener("scroll", function () {
+          // scroll or scrollend
+          animStart();
+        });
+        window.addEventListener("resize", animStart);
+        animStart();
+      };
+    })();
+    </script>
+</div>
+  </div>
+
+
+    <script src="script.js"></script>
+    <footer>
+    <link rel="stylesheet" href="footer.css">
+    <div class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6><u>About</u></h6>
+            <br>
+            <p class="text-justify">BookMyStay.com <i>Welcome to BookmyStay We simplify hotel management with an intuitive system designed for ease and efficiency. Our platform seamlessly integrates with your existing setup, offering real-time insights and personalized support. Elevate your guest experience and streamline operations with us—your trusted partner in hospitality.</p>
+          </div>
+
+          
+          <div class="col-xs-6 col-md-3">
+
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+              <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by 
+         <a href="index.html">BookMyStay</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="www"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
